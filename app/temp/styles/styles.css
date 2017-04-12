@@ -429,6 +429,7 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  margin: 0;
 }
 
 img {
@@ -1125,7 +1126,7 @@ a {
   background-color: #FFF;
   position: absolute;
   top: 10px;
-  right: 26px;
+  right: 10px;
 }
 
 @media (min-width: 800px) {
