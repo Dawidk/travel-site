@@ -11337,6 +11337,7 @@ var StickyHeader = function () {
             currentObject.siteHeader.addClass("site-header--dark");
           } else {
             currentObject.siteHeader.removeClass("site-header--dark");
+            currentObject.headerLinks.removeClass("is-current-link");
           }
         }
       });

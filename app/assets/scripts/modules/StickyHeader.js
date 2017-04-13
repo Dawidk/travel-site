@@ -36,6 +36,7 @@ class StickyHeader {
         }
         else {
           currentObject.siteHeader.removeClass("site-header--dark");
+          currentObject.headerLinks.removeClass("is-current-link");
         }
       }
     });
